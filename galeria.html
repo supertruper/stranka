@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-black.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+<body id="myPage">
+
+
+<!-- Navbar -->
+<div class="w3-top">
+ <div class="w3-bar w3-theme-d2 w3-left-align">
+  <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-hover-white w3-theme-d2" href="javascript:void(0);" onclick="openNav()"><i class="fa fa-bars"></i></a>
+  <a href="//softec.sk/public/HomedirsBA/vacovam/My documents/index.html" class="w3-bar-item w3-button w3-teal"><i class="fa fa-home w3-margin-right"></i>TJ Pribelce</a>
+  <a href="//softec.sk/public/HomedirsBA/vacovam/My documents/klub.html" class="w3-bar-item w3-button w3-hide-small w3-hover-white">O klube</a>
+  <a href="//softec.sk/public/HomedirsBA/vacovam/My documents/hraci.html" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Hraci</a>
+  <a href="//softec.sk/public/HomedirsBA/vacovam/My documents/galeria.html" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Fotogaleria</a>
+  <a href="//softec.sk/public/HomedirsBA/vacovam/My documents/galeria.html" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Kontakt</a>
+ </div>
+ 
+   <!-- Navbar on small screens -->
+  <div id="navDemo" class="w3-bar-block w3-theme-d2 w3-hide w3-hide-large w3-hide-medium">
+  </div>
+</div>
+<!-- Overlay effect when opening sidebar on small screens -->
+<div class="w3-overlay w3-animate-opacity" onclick="w3_close()" style="cursor: pointer;" title="close side menu" id="myOverlay"></div>
+
+<!-- !PAGE CONTENT! -->
+<div class="w3-main w3-content" style="max-width:1600px;">
+
+<!-- Header -->
+  <div class="w3-container" style="margin-top:80px" id="showcase">
+    <h3><b>Zapas 15.5.2018</b></h3>
+    <hr style="width:50px;border:5px solid teal" class="w3-round">
+  </div>
+
+ <!-- Photo grid -->
+  <div class="w3-row w3-grayscale-min">
+    <div class="w3-quarter">
+      <img src="https://images.pexels.com/photos/47343/the-ball-stadion-horn-corner-47343.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" style="width:100%; cursor: zoom-in;" onclick="onClick(this)" alt="ihrisko4">
+      <img src="https://images.pexels.com/photos/262524/pexels-photo-262524.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" style="width:100%; cursor: zoom-in;" onclick="onClick(this)" alt="tim">
+      <img src="https://images.pexels.com/photos/8590/pexels-photo.jpg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" style="width:100%; cursor: zoom-in;" onclick="onClick(this)" alt="zapas3">
+   </div>
+    
+     <div class="w3-quarter">
+      <img src="https://images.pexels.com/photos/1171084/pexels-photo-1171084.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" style="width:100%; cursor: zoom-in;" onclick="onClick(this)" alt="ihrisko">
+      <img src="https://images.pexels.com/photos/50713/football-ball-sport-soccer-50713.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" style="width:100%; cursor: zoom-in;" onclick="onClick(this)" alt="kop">
+      <img src="https://images.pexels.com/photos/39000/woman-samsung-alpha-taking-picture-39000.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" style="width:100%; cursor: zoom-in;" onclick="onClick(this)" alt="fotka">
+    </div>
+    
+    <div class="w3-quarter">
+      <img src="https://images.pexels.com/photos/54567/pexels-photo-54567.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" style="width:100%; cursor: zoom-in;" onclick="onClick(this)" alt="ihrisko2">
+      <img src="https://images.pexels.com/photos/46792/the-ball-stadion-football-the-pitch-46792.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" style="width:100%; cursor: zoom-in;" onclick="onClick(this)" alt="ihrisko3">
+      <img src="https://images.pexels.com/photos/918798/pexels-photo-918798.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" style="width:100%; cursor: zoom-in;" onclick="onClick(this)" alt="clovek">
+    </div>
+
+    <div class="w3-quarter">
+      <img src="https://images.pexels.com/photos/9003/night.jpg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" style="width:100%; cursor: zoom-in;" onclick="onClick(this)" alt="zapas">
+      <img src="https://images.pexels.com/photos/41257/pexels-photo-41257.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" style="width:100%; cursor: zoom-in;" onclick="onClick(this)" alt="zapas2">
+      <img src="https://images.pexels.com/photos/114296/pexels-photo-114296.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" style="width:100%; cursor: zoom-in;" onclick="onClick(this)" alt="lopta">
+    </div>
+  </div>
+  
+  <!-- Header -->
+  <div class="w3-container" style="margin-top:80px" id="showcase">
+    <h3><b>Zapas 10.5.2018</b></h3>
+    <hr style="width:50px;border:5px solid teal" class="w3-round">
+  </div>
+
+ <!-- Photo grid -->
+  <div class="w3-row w3-grayscale-min">
+    <div class="w3-quarter">
+      <img src="https://images.pexels.com/photos/94953/pexels-photo-94953.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" style="width:100%; cursor: zoom-in;" onclick="onClick(this)" alt="ihrisko4">
+      <img src="https://images.pexels.com/photos/94953/pexels-photo-94953.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" style="width:100%; cursor: zoom-in;" onclick="onClick(this)" alt="tim">
+      <img src="https://images.pexels.com/photos/110080/pexels-photo-110080.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" style="width:100%; cursor: zoom-in;" onclick="onClick(this)" alt="zapas3">
+   </div>
+    
+     <div class="w3-quarter" >
+      <img src="https://images.pexels.com/photos/94953/pexels-photo-94953.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" style="width:100%; cursor: zoom-in;" onclick="onClick(this)" alt="ihrisko">
+      <img src="https://images.pexels.com/photos/149356/pexels-photo-149356.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" style="width:100%; cursor: zoom-in;" onclick="onClick(this)" alt="kop">
+      <img src="https://images.pexels.com/photos/149356/pexels-photo-149356.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" style="width:100%; cursor: zoom-in;" onclick="onClick(this)" alt="fotka">
+    </div>
+	
+
+    
+  <div class="w3-quarter">
+      <img src="https://images.pexels.com/photos/209841/pexels-photo-209841.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" style="width:100%; cursor: zoom-in;" onclick="onClick(this)" alt="ihrisko2">
+      <img src="https://images.pexels.com/photos/54308/man-fan-person-football-54308.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" style="width:100%; cursor: zoom-in;" onclick="onClick(this)" alt="ihrisko3">
+      <img src="https://images.pexels.com/photos/2209/people-men-grass-sport.jpg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" style="width:100%; cursor: zoom-in;" onclick="onClick(this)" alt="clovek">
+    </div>
+
+   <div class="w3-quarter" >
+      <img src="https://images.pexels.com/photos/774321/pexels-photo-774321.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" style="width:100%; cursor: zoom-in;" onclick="onClick(this)" alt="zapas">
+      <img src="https://images.pexels.com/photos/532805/pexels-photo-532805.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" style="width:100%; cursor: zoom-in;" onclick="onClick(this)" alt="zapas2">
+      <img src="https://images.pexels.com/photos/110080/pexels-photo-110080.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" style="width:100%; cursor: zoom-in;" onclick="onClick(this)" alt="lopta">
+    </div>	  
+  </div>
+  
+  </div>
+
+     
+  <!-- Modal for full size images on click-->
+  <div id="modal01" class="w3-modal w3-black" style="padding-top:0" onclick="this.style.display='none'">
+    <span class="w3-button w3-black w3-xlarge w3-display-topright">×</span>
+    <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
+      <img id="img01" class="w3-image">
+      <p id="caption"></p>
+    </div>
+  </div>
+  
+<div class="w3-row ">
+       
+		<p><span style = "color: white;">bbbbb            
+			<a href= "//softec.sk/public/HomedirsBA/vacovam/My documents/homepage.html">
+				<button class = "w3-button w3-padding-large w3-white w3-border"> « Spat </button>
+			</a></span>
+		</p>
+     
+      </div>
+
+<script>
+  <!-- Modal Image Gallery -->
+function onClick(element) {
+  document.getElementById("img01").src = element.src;
+  document.getElementById("modal01").style.display = "block";
+  var captionText = document.getElementById("caption");
+  captionText.innerHTML = element.alt;
+}
+
+</script>
+
+
+
+<!-- Footer -->
+<footer class="w3-container w3-dark-grey w3-padding-32 w3-margin-top">
+  <a href= "//softec.sk/public/HomedirsBA/vacovam/My documents/index.html"><button class="w3-button w3-black w3-padding-large w3-margin-bottom"><i class="fa fa-home w3-margin-right"></i>Domov</button></a>
+  <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
+</footer>
+
+</body>
+</html>
